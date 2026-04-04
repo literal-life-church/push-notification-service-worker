@@ -1,0 +1,14 @@
+{
+  "name": "push-notification-service-worker",
+  "version": "2026.04.01",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "dev:types": "wrangler types"
+  },
+  "devDependencies": {
+    "@types/node": "25.5.2",
+    "@types/service-worker-mock": "2.0.4",
+    "wrangler": "4.80.0"
+  }
+}
