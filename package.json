@@ -1,6 +1,6 @@
 {
   "name": "push-notification-service-worker",
-  "version": "0.0.1",
+  "version": "2026.04.01",
   "private": true,
   "scripts": {
     "dev": "wrangler dev",
