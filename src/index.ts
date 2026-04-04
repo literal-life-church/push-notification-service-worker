@@ -5,10 +5,10 @@ export default {
 
         return new Response(body, {
             headers: {
-                "Content-Type": "application/javascript; charset=utf-8",
-                "Service-Worker-Allowed": "/",
                 "Cache-Control": "no-cache",
-            },
+                "Content-Type": "application/javascript; charset=utf-8",
+                "Service-Worker-Allowed": "/"
+            }
         });
-    },
+    }
 } satisfies ExportedHandler<Env>;
