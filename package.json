@@ -1,0 +1,13 @@
+{
+  "name": "push-notification-service-worker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "dev:types": "wrangler types"
+  },
+  "devDependencies": {
+    "@types/node": "25.5.2",
+    "wrangler": "4.80.0"
+  }
+}
