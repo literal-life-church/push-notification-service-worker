@@ -1,18 +1,14 @@
-/**
- * Welcome to Cloudflare Workers! This is your first worker.
- *
- * - Run `npm run dev` in your terminal to start a development server
- * - Open a browser tab at http://localhost:8787/ to see your worker in action
- * - Run `npm run deploy` to publish your worker
- *
- * Bind resources to your worker in `wrangler.jsonc`. After adding bindings, a type definition for the
- * `Env` object can be regenerated with `npm run cf-typegen`.
- *
- * Learn more at https://developers.cloudflare.com/workers/
- */
-
 export default {
-	async fetch(request, env, ctx): Promise<Response> {
-		return new Response("Hello World!");
-	},
+    async fetch(request: Request): Promise<Response> {
+        const response = await fetch("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
+        const body = await response.text();
+
+        return new Response(body, {
+            headers: {
+                "Content-Type": "application/javascript; charset=utf-8",
+                "Service-Worker-Allowed": "/",
+                "Cache-Control": "no-cache",
+            },
+        });
+    },
 } satisfies ExportedHandler<Env>;
