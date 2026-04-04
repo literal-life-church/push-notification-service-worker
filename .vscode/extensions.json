@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "anthropic.claude-code",
+        "davidanson.vscode-markdownlint",
+        "eamodio.gitlens",
+        "editorconfig.editorconfig",
+        "github.copilot-chat",
+        "github.vscode-github-actions",
+        "github.vscode-pull-request-github",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}
