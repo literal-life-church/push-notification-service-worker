@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "Literal Life Church",
+    "short_name": "Literal Life Church",
+    "description": "Watch live streams from Literal Life Church and browse our extensive sermon archive.",
+    "icons": [
+        {
+            "src": "https://res.cloudinary.com/literallifechurch/image/upload/w_192,h_192/manifest/logo.jpg",
+            "type": "image/jpg",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://res.cloudinary.com/literallifechurch/image/upload/w_384,h_384/manifest/logo.jpg",
+            "type": "image/jpg",
+            "sizes": "384x384"
+        },
+        {
+            "src": "https://res.cloudinary.com/literallifechurch/image/upload/w_512,h_512/manifest/logo.jpg",
+            "type": "image/jpg",
+            "sizes": "512x512"
+        },
+        {
+            "src": "https://res.cloudinary.com/literallifechurch/image/upload/w_1024,h_1024/manifest/logo.jpg",
+            "type": "image/jpg",
+            "sizes": "1024x1024"
+        },
+        {
+            "src": "https://res.cloudinary.com/literallifechurch/image/upload/w_512,h_512/manifest/logo.jpg",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ],
+    "id": "/live-streaming?source=pwa",
+    "start_url": "/live-streaming?source=pwa",
+    "background_color": "#0D283A",
+    "display": "minimal-ui",
+    "scope": "/",
+    "theme_color": "#0D283A"
+}
