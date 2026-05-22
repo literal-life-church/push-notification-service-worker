@@ -34,7 +34,7 @@
     "id": "/live-streaming?source=pwa",
     "start_url": "/live-streaming?source=pwa",
     "background_color": "#0D283A",
-    "display": "minimal-ui",
+    "display": "standalone",
     "scope": "/",
     "theme_color": "#0D283A"
 }
