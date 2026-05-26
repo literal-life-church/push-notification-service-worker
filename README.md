@@ -2,7 +2,7 @@
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Fliteral-life-church%2Fpush-notification-shimming-layer%2F)
 
-Serves as a general-purpose shimming layer for any domain or subdomain that can be proxied via a [Cloudflare Worker Route](https://developers.cloudflare.com/workers/configuration/routing/routes/) to resolve certain paths to custom scripts. This is a great project for shimming requests to  web hosts that do not allow you to upload files and resolve them with custom paths.
+Serves as a general-purpose shimming layer for any domain or subdomain that can be proxied via a [Cloudflare Worker Route](https://developers.cloudflare.com/workers/configuration/routing/routes/) to resolve certain paths to custom scripts. This is a great project for shimming requests to web hosts that do not allow you to upload files and resolve them with custom paths.
 
 This project in particular is designed to shim all of the necessary paths and scripts required to serve [OneSignal push notifications](https://onesignal.com/) via a web browser.
 
