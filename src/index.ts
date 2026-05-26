@@ -53,7 +53,7 @@ function serveManifest(origin: string): Response {
                 "purpose": "any"
             },
             {
-                "src": "https://res.cloudinary.com/literallifechurch/image/upload/w_512,h_512/manifest/logo-white.png",
+                "src": "https://res.cloudinary.com/literallifechurch/image/upload/w_512,h_512/manifest/logo-maskable.png",
                 "type": "image/png",
                 "sizes": "512x512",
                 "purpose": "maskable"
