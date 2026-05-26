@@ -1,5 +1,5 @@
 {
-  "name": "push-notification-service-worker",
+  "name": "push-notification-shimming-layer",
   "version": "2026.04.01",
   "private": true,
   "scripts": {
