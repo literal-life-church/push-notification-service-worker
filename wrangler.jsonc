@@ -1,6 +1,6 @@
 {
     "$schema": "node_modules/wrangler/config-schema.json",
-    "name": "push-notification-service-worker",
+    "name": "push-notification-shimming-layer",
     "main": "src/index.ts",
     "compatibility_date": "2026-04-04",
     "observability": {
@@ -8,5 +8,8 @@
     },
     "compatibility_flags": [
         "nodejs_compat"
-    ]
+    ],
+    "assets": {
+        "directory": "./assets"
+    }
 }
